@@ -3,18 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wibsite Konversi Suhu</title>
 </head>
 
 <link rel="stylesheet" href="css/style.css">
 <body>
     <!-- Header Content --> 
-    <header></header>
+    <header>
+        <h1>Website Konversi Suhu - Addien</h1>
+    </header>
    
     <!-- main content -->
-    <main></main>
+    <main>
+        <!-- Indroduction -->
+        <div> Masukkan suhu derajat celcius (&deg;C) ke kotak di bawah ... </div>
+        
+        <div></div>
+        <!-- Form Konveksi Suhu -->
+        <form class="padding-medium">
+            <!-- Inputan Suhu -->
+            <div>
+                <label for="input-suhu">Celsius(&deg;C):</label>
+                <input type="number" id="input-suhu" name="suhu">
+            </div>
+            <!-- Tombol Action -->
+            <div>
+                <button class="bg-lightseagreen">Konversi</button>
+                <button class="bg-lightblue">Reset</button>
+                <button class="bg-lightcoral">Reverse</button>
+            </div>
+        </form>
+
+        <!-- Hasil Konversi -->
+        <div class="padding-medium">
+            <div>
+                <label for="hasil-suhu">Fahrenheit(&deg;F):</label>
+                <textarea id="hasil-suhu" readonly></textarea>
+            </div>
+        </div>
+
+        <!-- Penjelasan -->
+        <div class="padding-medium">
+            <div>
+                <label for="detail-suhu">Penjelasan:</label>
+                <textarea id="hasil-suhu" readonly></textarea>
+            </div>
+        </div>
+
+        <!-- Keterangan Formula -->
+        <div>
+            <header>
+                <h2>Cara Konversi Celcius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+            </header>
+
+            <hr>
+
+            <div>
+                <p>Introduction dari rumus konversi suhu. Suhu S dalam derajat</p>
+                <p class="rumus-content">S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32</p>
+                <p>Atau</p>
+                <p class="rumus-content">S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1,8) + 32</p>
+            </div>
+        </div>
+    </main>
 
     <!--footer content-->
-    <footer></footer>
+    <footer>
+        <p>&copy; 2025 Addien</p>
+    </footer>
 </body>
 </html>

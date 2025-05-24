@@ -1,0 +1,51 @@
+body {
+    justify-items: center;
+    background-color: antiquewhite;
+    font-family: serif;
+}
+
+main {
+    background-color: azure;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+input[type=number], 
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.padding-medium {
+    padding: 16px;
+}
+
+button {
+    border: 0px;
+    padding: 8px;
+    
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.rumus-content {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Global usage */
+.bg-lightseagreen {
+    background-color: lightseagreen;
+}
+.bg-lightblue {
+    background-color: lightblue;
+}
+.bg-lightcoral {
+    background-color: lightcoral;
+}
